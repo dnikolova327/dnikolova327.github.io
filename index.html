@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="styles.css">
+  <title>Cat Universe</title>
+</head>
+
+<body>
+
+  <header class="navigation-container">
+    <div class="header-logo">
+      <i class="fas fa-paw"></i>
+    </div>
+    <div class="header-topnav">
+      <a href="#">home</a>
+      <a href="#about-us">about us</a>
+      <a href="#contacts">contact us</a>
+     <a href="#form"><button class="btn btn-dark" >Log in </button></a> 
+    </div>
+  </header>
+
+  <section class="slideshow-container">
+    <div class="mySlides fade">
+      <img src="img/image1.jpg" style="width:100%">
+    </div>
+
+    <div class="mySlides fade">
+      <img src="img/image2.jpg" style="width:100%">
+    </div>
+
+    <div class="mySlides fade">
+      <img src="img/image3.jpg" style="width:100%">
+    </div>
+
+    <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+    <a class="next" onclick="plusSlides(1)">&#10095;</a>
+    <div class="dots-wrapper" style="text-align:center">
+      <span class="dot" onclick="currentSlide(1)"></span>
+      <span class="dot" onclick="currentSlide(2)"></span>
+      <span class="dot" onclick="currentSlide(3)"></span>
+    </div>
+  </section>
+
+
+  <main>
+
+    <section class="kind-cat-container">
+      <article class="kind-cat-wrapper">
+
+        <h3 class="kind-cat-wrapper title"> What kind of cat are you?</h3>
+        <span class="separator"></span>
+
+        <article class="kind-cat-wrapper content">
+          <div class="kind-cat-wrapper type">
+            <i class="far fa-gem"></i>
+            <h4>Diamond</h4>
+            <p>This cat is unique in every way. It can be cat but it shines like a diamond.</p>
+            <button class="btn btn-light"> Learn More</button>
+          </div>
+
+          <div class="kind-cat-wrapper type">
+            <i class="fas fa-paper-plane"></i>
+            <h4>Travel</h4>
+            <p>Travel cat only wants to find her soulmate and to travel with him.</p>
+            <button class="btn btn-light"> Learn More</button>
+          </div>
+
+          <div class="kind-cat-wrapper type">
+            <i class="far fa-newspaper"></i>
+            <h4>Curious</h4>
+            <p>The curious cat it's a little jealous and want to know everything.</p>
+            <button class="btn btn-light"> Learn More</button>
+          </div>
+        </article>
+
+      </article>
+    </section>
+
+
+    <div class="back-to-top-wrapper">
+      <a href="#top" class="back-to-top-link" aria-label="Scroll to Top"> <i class="fas fa-arrow-up"></i></a>
+    </div>
+
+    <section id="about-us" class="about-us-container">
+      <article class="about-us-wrapper">
+        <div class="about-us-image">
+          <img src="img/about-us-img.jpg" alt="about us">
+        </div>
+
+        <div class="about-us-content">
+          <h3>About us</h3>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aspernatur soluta ea minima dolorum nisi? </p>
+          <p>Atque,
+            adipisci repellendus nostrum rerum porro, dolores fugiat tenetur nulla libero perspiciatis at dolor
+            veritatis nam.</p>
+        </div>
+      </article>
+    </section>
+
+    <section id="contacts" class="contacts">
+      <article class="contacts-wrapper">
+        <div class="contacts-content">
+          <h3>Contact Us</h3>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eos autem non sint asperiores reprehenderit quam
+            explicabo sed culpa pariatur, consequatur ea corrupti obcaecati doloremque laudantium quia molestiae quae
+            modi recusandae.</p>
+            <a href="#form"><button class="btn btn-light">Send a message</button></a> 
+        </div>
+
+        <div class="contacts-info">
+          <header class="contacts-info-title">
+            <h4>Contact Info</h4>
+          </header>
+
+          <article class="contact-info-content">
+            <i class="fas fa-map-marker-alt"></i>
+            <div>
+              <strong>Visit Us</strong>
+              <p>Burgas, Bulgaria</p>
+            </div>
+          </article>
+
+          <article class="contact-info-content">
+            <i class="fas fa-phone"></i>
+            <div>
+              <strong>Call Us</strong>
+              <p>0888-123-456</p>
+            </div>
+          </article>
+
+          <article class="contact-info-content">
+            <i class="fas fa-envelope"></i>
+            <div>
+              <strong>Email Us</strong>
+              <p>mail@mail.com </p>
+            </div>
+          </article>
+        </div>
+
+      </article>
+    </section>
+
+    <section id="form" class="form-container">
+      <h3 class="form-container-title">Email Us</h3>
+      <form>
+        <input type="text" name="name" id="name" placeholder="Enter your name..">
+        <input type="email" id="email" name="email" placeholder="Enter you email..">
+        <textarea id="message" name="message" placeholder="Write message.."></textarea>
+        <input class="btn btn-dark" type="submit" value="Submit">
+      </form>
+    </section>
+
+  </main>
+
+  <footer>
+    <article class="logo-and-copyright-wrapper">
+      <p class="copyright"> &copy; 2021 - Cat Universe</p>
+    </article>
+    <article class="footer-links">
+      <ul>
+        <li><a href="#">Home</a></li>
+        <li><a href="#about-us">About Us</a></li>
+        <li><a href="#contacts">Contact Us</a></li>
+        <li><i class="fab fa-facebook-square"></i></li>
+        <li><i class="fab fa-instagram"></i></li>
+        <li><i class="fab fa-twitter-square"></i></li>
+        <li><i class="fab fa-youtube"></i></li>
+      </ul>
+    </article>
+  </footer>
+
+  <script>
+    var slideIndex = 1;
+    showSlides(slideIndex);
+
+    function plusSlides(n) {
+      showSlides(slideIndex += n);
+    }
+
+    function currentSlide(n) {
+      showSlides(slideIndex = n);
+    }
+
+    function showSlides(n) {
+      var i;
+      var slides = document.getElementsByClassName("mySlides");
+      var dots = document.getElementsByClassName("dot");
+      if (n > slides.length) { slideIndex = 1 }
+      if (n < 1) { slideIndex = slides.length }
+      for (i = 0; i < slides.length; i++) {
+        slides[i].style.display = "none";
+      }
+      for (i = 0; i < dots.length; i++) {
+        dots[i].className = dots[i].className.replace(" active", "");
+      }
+      slides[slideIndex - 1].style.display = "block";
+      dots[slideIndex - 1].className += " active";
+    }
+  </script>
+</body>
+
+</html>
