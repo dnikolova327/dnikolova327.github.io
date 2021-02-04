@@ -233,14 +233,18 @@ color: black;
     width: 50%;
 }
 @media only screen and (max-width: 600px) {
-   .about-us-content,
-    .about-us-image {
+   .about-us-content {
     width: auto;
     }
 }
 
 .about-us-image {
     width: 40%;
+}
+@media only screen and (max-width: 600px) {
+   .about-us-image {
+    width: 100%;
+    }
 }
 .about-us-image img {
     width: 100%;
