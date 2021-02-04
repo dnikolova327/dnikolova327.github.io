@@ -189,6 +189,13 @@ color: black;
     width: 25%;
     margin: 20px;
 }
+@media only screen and (max-width: 600px){
+.kind-cat-wrapper .content .type {
+   width: auto;
+   margin: 0;
+    }
+}
+
 .kind-cat-wrapper .content .type p{
     height: 30%;
 }
@@ -224,6 +231,12 @@ color: black;
 }
 .about-us-content {
     width: 50%;
+}
+@media only screen and (max-width: 600px) {
+   .about-us-content,
+    .about-us-image {
+    width: auto;
+    }
 }
 
 .about-us-image {
