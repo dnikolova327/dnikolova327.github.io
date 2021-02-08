@@ -118,8 +118,10 @@
 }
 
 .dots-wrapper {
-    position: relative;
-    bottom: 40px;
+    position: absolute;
+    left: 50%;
+    bottom: 5%;
+    transform: translateX(-50%);
 }
 
 .dot {
