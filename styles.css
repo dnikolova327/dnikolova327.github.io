@@ -234,11 +234,13 @@
 
 .kind-cat-wrapper .content .type h3 {
     color: #8cdcfe;
+    padding-bottom: 30px;
 }
 
 .kind-cat-wrapper .content i {
     color: #8cdcfe;
     font-size: 50px;
+    padding-bottom: 20px;
 }
 /* .separator {
     display: inline-block;
