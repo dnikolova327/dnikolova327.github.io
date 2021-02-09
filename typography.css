@@ -1,25 +1,25 @@
 ::after,
 ::before,
 html,* {
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    list-style: none;
     box-sizing: border-box;
 }
 body {
     
     font-family: "Lato", sans-serif;
-    margin: 0;
     background-color: #f9f9f9;
 }
 a{
-    text-decoration: none;
     font-style: normal;
     font-size: 17px;
     line-height: 22px;
     font-weight: 700;
     transition: all 0.2s ease;
 }
-ul{
-    list-style: none;
-}
+
 .container{
     max-width: 1250px;
     width: 90%;
@@ -43,7 +43,6 @@ h1 {
     line-height: 29px;
   }
   
-
   p{
       font-size: 17px;
       line-height: 29px;
