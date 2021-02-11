@@ -130,9 +130,10 @@
   }
   .slideshow-description{
     position: absolute;
-    top: 65%;
-    left: 50%;
+    top: 71%;
+    left: 61%;
     transform: translate(-50%, -50%);
+    width: 65%;
     text-transform: uppercase;
     animation: mymove;
     animation-duration: 5s;
@@ -504,6 +505,30 @@ input[type="submit"] {
         padding-top: 80px;
         }
 }
+@media all and (max-width: 850px){
+    .slideshow-header h1 {
+        font-size: 70px;
+        line-height: 80px;
+    }
+    .slideshow-header h2 {
+        font-size: 40px;
+        line-height: 46px;
+    }
+    .slideshow-header{
+        top: 32%;
+        left: 33%;
+
+    }
+    .slideshow-description{
+        font-size: 13px;
+        line-height: 15px;
+        width: 65%;
+        top: 75%;
+        left: 61%;
+        }
+
+}
+
 
 @media all and (max-width: 600px){
     .mySlides img{
@@ -511,7 +536,7 @@ input[type="submit"] {
     }
     .slideshow-header{
     top: 36%;
-    left: 41%;
+    left: 37%;
     }
     .slideshow-description{
     font-size: 13px;
