@@ -466,6 +466,74 @@ input[type="submit"] {
 .footer-links ul li i:hover {
     color: #8cdcfe;
 }
+
+@media all and (max-width: 1000px){
+    .slideshow-header h1{
+        font-weight: 700;
+        font-size: 69px;
+        line-height: 1.2em;
+    }
+    .slideshow-header h2{
+        font-size: 42px;
+        line-height: 1em;
+    }
+    
+}
+
+@media all and (max-width: 880px){
+
+    .mySlides img{
+    padding-top: 80px;
+    }
+    
+}
+@media all and (max-width: 780px){
+    .slideshow-header{
+        top:32%
+    }
+    .slideshow-header h1{
+        font-size: 60px;
+    }
+    .slideshow-header h2{
+        font-size: 37px;
+    }
+}
+@media all and (max-width: 600px){
+    .slideshow-header{
+        top:37%
+    }
+    .slideshow-header h1{
+        font-size: 50px;
+    }
+    .slideshow-header h2{
+        font-size: 30px;
+    }
+    .slideshow-description{
+        width: 78%;
+    }
+
+}
+@media all and (max-width: 450px){
+    .slideshow-header{
+        top:45%;
+        left:50%;
+    }
+    .slideshow-header h1{
+        font-size: 45px;
+    }
+    .slideshow-header h2{
+        font-size: 25px;
+    }
+    .slideshow-description{
+        font-size: 17px;
+        left: 50%;
+        text-transform: none;
+
+    }
+}
+
+
+
 @media all and (max-width: 600px){
     .checkbtn{
         display: block;
@@ -500,108 +568,37 @@ input[type="submit"] {
         left: 0;
       }
 }
-@media all and (max-width: 1000px){
-    .mySlides img{
-        padding-top: 80px;
-        }
-}
-@media all and (max-width: 850px){
-    .slideshow-header h1 {
-        font-size: 70px;
-        line-height: 80px;
-    }
-    .slideshow-header h2 {
-        font-size: 40px;
-        line-height: 46px;
-    }
-    .slideshow-header{
-        top: 32%;
-        left: 33%;
-
-    }
-    .slideshow-description{
-        font-size: 13px;
-        line-height: 15px;
-        width: 65%;
-        top: 75%;
-        left: 61%;
-        }
-
-}
-
-
-@media all and (max-width: 600px){
-    .mySlides img{
-    padding-top: 80px;
-    }
-    .slideshow-header{
-    top: 36%;
-    left: 37%;
-    }
-    .slideshow-description{
-    font-size: 13px;
-    line-height: 15px;
-    width: 65%;
-    top: 75%;
-    left: 61%;
-    }
-    .slideshow-header h1 {
-        font-size: 65px;
-        line-height: 72px;
-    }
-    .slideshow-header h2 {
-        font-size: 38px;
-        line-height: 44px;
-    }
-}
-
 @media all and (max-width: 600px) {
     .kind-cat-wrapper {
         flex-direction: column;
         align-items: center;
     }
-}
-@media all and (max-width: 600px) {
     .kind-cat-wrapper .content .type {
         width: auto;
         margin: 0;
     }
-}
-@media all and (max-width: 600px) {
     .about-us-wrapper {
         flex-direction: column-reverse;
     }
-}
-@media all and (max-width: 600px) {
     .about-us-content {
         width: auto;
     }
-}
-@media all and (max-width: 600px) {
     .about-us-image {
         width: 100%;
     }
-}
-@media all and (max-width: 600px) {
     .contacts-wrapper {
         flex-direction: column;
     }
-}
-@media all and (max-width: 600px) {
     .contacts-content {
         width: auto;
         text-align: center;
         margin: 0 auto;
         width: auto;
     }
-}
-@media all and (max-width: 600px) {
     input[type="text"],
     input[type="email"] {
         width: 100%;
     }
-}
-@media all and (max-width: 600px) {
     .footer-wrapper {
         flex-direction: column-reverse;
     }
