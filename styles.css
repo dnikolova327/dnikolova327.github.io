@@ -118,7 +118,7 @@
     left: 32%;
     transform: translate(-50%, -50%);
     text-transform: uppercase;
-    animation: mymove;
+    animation: mymove-title;
     animation-duration: 3s;
     text-align: center;
     color: rgb(4, 26, 49);
@@ -130,7 +130,7 @@
     transform: translate(-50%, -50%);
     width: 60%;
     text-transform: uppercase;
-    animation: mymove;
+    animation: mymove-description;
     animation-duration: 3s;
     text-align: center;
     color: rgb(4, 26, 49);
@@ -152,7 +152,7 @@
     line-height: 60px;
 }
 
-@keyframes mymove {
+@keyframes mymove-title {
     from {
         margin-left: 100%;
     }
@@ -160,6 +160,16 @@
         margin-left: 0%;
     }
 }
+@keyframes mymove-description {
+    from {
+        margin-top: 100%;
+    }
+    to {
+        margin-top: 0%;
+    }
+}
+
+
 
 .mySlides {
     display: none;
