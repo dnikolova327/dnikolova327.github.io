@@ -523,7 +523,7 @@ input[type="submit"] {
 }
 @media all and (max-width: 600px) {
     .slideshow-header {
-        top: 35%;
+        top: 30%;
         left: 50%;
     }
     .slideshow-description {
@@ -534,7 +534,7 @@ input[type="submit"] {
         text-transform: none;
     }
     .mySlides img {
-        height: 500px;
+        height: 600px;
         object-fit: cover;
     }
     .dots-wrapper {
