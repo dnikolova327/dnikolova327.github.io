@@ -1,7 +1,6 @@
 @import url("https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap");
 @import url("https://use.fontawesome.com/releases/v5.15.2/css/all.css");
 
-
 .navigation-container {
     position: fixed;
     width: 100%;
@@ -34,19 +33,18 @@
 
 .navbar-item a:hover {
     color: #062340;
-    
 }
-.checkbtn{
+.checkbtn {
     font-size: 30px;
     color: #041a31;
     float: right;
     line-height: 80px;
     cursor: pointer;
     display: none;
-  }
-  #check{
+}
+#check {
     display: none;
-  }
+}
 
 .btn {
     font-family: "Lato", sans-serif;
@@ -59,7 +57,7 @@
     font-weight: 800;
     cursor: pointer;
 }
-.navbar-item-btn{
+.navbar-item-btn {
     display: inline-block;
 }
 
@@ -72,7 +70,6 @@
 .btn-light:hover {
     background-color: #1a354f;
     color: #f3f5fb;
-    
 }
 .btn-dark {
     background-color: #041a31;
@@ -83,7 +80,6 @@
 .btn-dark:hover {
     background-color: #8ad9fb;
     color: #041a31;
-    
 }
 #myBtn {
     display: none;
@@ -97,17 +93,16 @@
     color: white;
     cursor: pointer;
     padding: 12px 20px;
-    border-radius:  50%;
+    border-radius: 50%;
     transition: all 0.2s ease 0s;
-  }
-  #myBtn i{
-      font-size: 36px;
-  }
-  
-  #myBtn:hover {
+}
+#myBtn i {
+    font-size: 36px;
+}
+
+#myBtn:hover {
     background-color: #555;
-   
-  }
+}
 
 /* Slideshow container */
 .slideshow-container {
@@ -115,7 +110,6 @@
     position: relative;
     margin: 0;
     background-color: #b6cacc;
-    
 }
 .slideshow-header {
     position: absolute;
@@ -124,41 +118,47 @@
     transform: translate(-50%, -50%);
     text-transform: uppercase;
     animation: mymove;
-    animation-duration: 5s;
+    animation-duration: 3s;
     text-align: center;
     color: rgb(4, 26, 49);
-  }
-  .slideshow-description{
+}
+.slideshow-description {
     position: absolute;
     top: 71%;
     left: 61%;
     transform: translate(-50%, -50%);
-    width: 65%;
+    width: 60%;
     text-transform: uppercase;
     animation: mymove;
-    animation-duration: 5s;
+    animation-duration: 3s;
     text-align: center;
     color: rgb(4, 26, 49);
     font-weight: 600;
-  }
-  .slideshow-header span{
-      color:  #369dca;
-  }
-  .slideshow-header h1{
+}
+.slideshow-description .btn {
+    margin-top: 20px;
+}
+.slideshow-header span {
+    color: #369dca;
+}
+.slideshow-header h1 {
     font-size: 80px;
     line-height: 90px;
 }
 
-  .slideshow-header h2{
+.slideshow-header h2 {
     font-size: 47px;
     line-height: 60px;
-  }
-  
-  @keyframes mymove {
-    from { margin-left: 100%;}
-    to {margin-left: 0%}
-  }
+}
 
+@keyframes mymove {
+    from {
+        margin-left: 100%;
+    }
+    to {
+        margin-left: 0%;
+    }
+}
 
 .mySlides {
     display: none;
@@ -466,79 +466,83 @@ input[type="submit"] {
 .footer-links ul li i:hover {
     color: #8cdcfe;
 }
+.mobile-header {
+    display: none;
+}
 
-@media all and (max-width: 1000px){
-    .slideshow-header h1{
+@media all and (max-width: 1000px) {
+    .slideshow-header h1 {
         font-weight: 700;
         font-size: 69px;
         line-height: 1.2em;
     }
-    .slideshow-header h2{
+    .slideshow-header h2 {
         font-size: 42px;
         line-height: 1em;
     }
-    
 }
 
-@media all and (max-width: 880px){
-
-    .mySlides img{
-    padding-top: 80px;
+@media all and (max-width: 880px) {
+    .mySlides img {
+        padding-top: 80px;
     }
-    
 }
-@media all and (max-width: 780px){
-    .slideshow-header{
-        top:32%
+@media all and (max-width: 780px) {
+    .kind-cat-wrapper-title,
+    .about-us-content h2,
+    .contacts-content h2,
+    .form-container-title {
+        font-size: 40px;
+        line-height: 48px;
     }
-    .slideshow-header h1{
+    .slideshow-header {
+        top: 32%;
+    }
+    .slideshow-header h1 {
         font-size: 60px;
     }
-    .slideshow-header h2{
-        font-size: 37px;
+    .slideshow-header h2 {
+        font-size: 35px;
+    }
+    .slideshow-description {
+        top: 75%;
     }
 }
-@media all and (max-width: 600px){
-    .slideshow-header{
-        top:37%
+@media all and (max-width: 600px) {
+    .slideshow-header {
+        top: 35%;
+        left: 50%;
     }
-    .slideshow-header h1{
-        font-size: 50px;
-    }
-    .slideshow-header h2{
-        font-size: 30px;
-    }
-    .slideshow-description{
-        width: 78%;
-    }
-
-}
-@media all and (max-width: 450px){
-    .slideshow-header{
-        top:45%;
-        left:50%;
-    }
-    .slideshow-header h1{
-        font-size: 45px;
-    }
-    .slideshow-header h2{
-        font-size: 25px;
-    }
-    .slideshow-description{
+    .slideshow-description {
         font-size: 17px;
         left: 50%;
+        top: 80%;
+        width: 70%;
         text-transform: none;
-
+    }
+    .mySlides img {
+        height: 500px;
+        object-fit: cover;
+    }
+    .dots-wrapper {
+        display: none;
+    }
+}
+@media all and (max-width: 360px) {
+    .slideshow-header h1 {
+        font-size: 40px;
+        line-height: 48px;
+    }
+    .slideshow-header h2 {
+        font-size: 23px;
     }
 }
 
-
-
-@media all and (max-width: 600px){
-    .checkbtn{
+@media all and (max-width: 600px) {
+    .checkbtn {
         display: block;
     }
-    .navbar-items{
+    .navbar-items {
         position: fixed;
         width: 100%;
         height: 100vh;
@@ -546,27 +550,27 @@ input[type="submit"] {
         top: 80px;
         left: -100%;
         text-align: center;
-        transition: all .5s;
+        transition: all 0.5s;
     }
-    .navbar-item{
+    .navbar-item {
         display: block;
         margin: 50px 0;
         line-height: 30px;
     }
-    .navbar-item a{
+    .navbar-item a {
         font-size: 20px;
         color: #f3f5fb;
     }
-    .navbar-item a:hover{
-        color:  #f3f5fb;
+    .navbar-item a:hover {
+        color: #f3f5fb;
     }
-    .navbar-item-btn a{
+    .navbar-item-btn a {
         color: #041a31;
         background: #8cdcfe;
     }
-    #check:checked ~ ul{
+    #check:checked ~ ul {
         left: 0;
-      }
+    }
 }
 @media all and (max-width: 600px) {
     .kind-cat-wrapper {
