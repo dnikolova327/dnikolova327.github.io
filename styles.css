@@ -131,7 +131,7 @@
     width: 60%;
     text-transform: uppercase;
     animation: mymove-description;
-    animation-duration: 3s;
+    animation-duration: 5s;
     text-align: center;
     color: rgb(4, 26, 49);
     font-weight: 600;
@@ -162,10 +162,10 @@
 }
 @keyframes mymove-description {
     from {
-        margin-top: 100%;
+        opacity: 0;
     }
     to {
-        margin-top: 0%;
+        opacity: 1;
     }
 }
 
@@ -523,7 +523,7 @@ input[type="submit"] {
 }
 @media all and (max-width: 600px) {
     .slideshow-header {
-        top: 30%;
+        top: 35%;
         left: 50%;
     }
     .slideshow-description {
@@ -534,7 +534,7 @@ input[type="submit"] {
         text-transform: none;
     }
     .mySlides img {
-        height: 600px;
+        height: 500px;
         object-fit: cover;
     }
     .dots-wrapper {
