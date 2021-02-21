@@ -64,7 +64,7 @@ body {
     font-size: 1.1rem;
 }
 .narrow {
-    margin: 1.5rem auto;
+    margin: 2rem auto;
     padding-top: 2rem;
 }
 .narrow h1 {
@@ -121,6 +121,9 @@ h3.heading {
     background-color: rgba(0, 0, 0, 0.75);
     color: white;
     padding: 7 rem 2 rem;
+}
+.fixed-background .dark{
+padding: 3rem;
 }
 .fixed-background h3 {
     margin-bottom: 2rem;
